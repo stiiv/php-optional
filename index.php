@@ -1,16 +1,10 @@
-# php-optional
-Handle PHP null values gracefully
-
-###### Example:
-
-source from (http://nitschinger.at/A-Journey-on-Avoiding-Nulls-in-PHP/)
-
-```
 <?php
 
 include "vendor/autoload.php";
 
 use Optional\Optional;
+
+/// source http://nitschinger.at/A-Journey-on-Avoiding-Nulls-in-PHP/
 
 $possible = Optional::of(5);
 var_dump($possible->isPresent()); // bool(true)
@@ -32,5 +26,3 @@ $val3 = Optional::fromNullable(4);
 
 var_dump($val1->equals($val2)); // bool(false)
 var_dump($val2->equals($val3)); // bool(true)
-
-```
