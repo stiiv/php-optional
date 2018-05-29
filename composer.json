@@ -1,17 +1,17 @@
 {
 	"name": "stiiv/php-optional",
-	"description": "Handle PHP null values gracefully", // Description about package
-    "keywords": ["PHP Optional null", "PHP handle null" "PHP"], // Keywords
-    "type": "package",
-    "license": "MIT",
-    "authors": [{
-        "name": "Ivan Stipić Stiiv", 
-        "email": "ivan.stipic6@gmail.com"
-    }],
-    "autoload": {
-        "psr-4": {
-            "Optional\\" : "Optional/"
-        }
-    },
-    "version": "1.0.0"
+	"description": "Handle PHP null values gracefully",
+	"keywords": ["PHP Optional null", "PHP handle null", "PHP"],
+	"type": "package",
+	"license": "MIT",
+	"authors": [{
+		"name": "Ivan Stipić Stiiv",
+		"email": "ivan.stipic6@gmail.com"
+	}],
+	"autoload": {
+		"psr-4": {
+			"Optional\\": "Optional/"
+		}
+	},
+	"version": "1.0.0"
 }
