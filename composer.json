@@ -1,7 +1,7 @@
 {
 	"name": "stiiv/php-optional",
 	"description": "Handle PHP null values gracefully", // Description about package
-    "keywords": ["PHP Optional null", "PHP handle null" "PHP"], // Keywords
+    "keywords": ["PHP Optional null", "PHP handle null", "PHP"], // Keywords
     "type": "package",
     "license": "MIT",
     "authors": [{
